@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplikasi Berita</string>
+    <array name="sports_images">
+        <item>@drawable/Bunga</item>
+        <item>@drawable/Kebun</item>
+        <item>@drawable/Kota</item>
+        <item>@drawable/Ruangan</item>
+    </array>
+</resources>
