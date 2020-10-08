@@ -5,9 +5,11 @@
         <item>Berita Kepadatan Kota</item>
         <item>populasi</item>
         <item>kesehatan</item>
+        <item>Otomotif</item>
     </string-array>
 
     <string-array name="deskripsi">
+        <item>deskripsi</item>
         <item>deskripsi</item>
         <item>deskripsi</item>
         <item>deskripsi</item>
