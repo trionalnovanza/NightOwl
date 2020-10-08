@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Aplikasi Berita</string>
+    <string name="app_name">Kategori Berita</string>
     <string-array name="judul">
-        <item>Berita Perkebunan</item>
-        <item>Berita Kepadatan Kota</item>
-        <item>Populasi</item>
-        <item>Kesehatan</item>
+        <item>Pendidikan</item>
+        <item>Politik</item>
+        <item>Ekonomi</item>
         <item>Otomotif</item>
+        <item>Bisnis</item>
     </string-array>
 
     <string-array name="deskripsi">
