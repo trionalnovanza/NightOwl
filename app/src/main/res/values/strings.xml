@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">Aplikasi Berita</string>
-    <array name="sports_images">
-        <item>@drawable/Bunga</item>
-        <item>@drawable/Kebun</item>
-        <item>@drawable/Kota</item>
-        <item>@drawable/Ruangan</item>
-    </array>
+    <string-array name="judul">
+        <item>berita perkebunan</item>
+        <item>berita kepadatan kota</item>
+        <item>populasi</item>
+        <item>kesehatan</item>
+    </string-array>
+
+    <string-array name="deskripsi">
+        <item>deskripsi</item>
+        <item>deskripsi</item>
+        <item>deskripsi</item>
+        <item>deskripsi</item>
+    </string-array>
 </resources>
