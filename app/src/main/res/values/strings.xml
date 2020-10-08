@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Aplikasi Berita</string>
     <string-array name="judul">
-        <item>berita perkebunan</item>
-        <item>berita kepadatan kota</item>
+        <item>Berita Perkebunan</item>
+        <item>Berita Kepadatan Kota</item>
         <item>populasi</item>
         <item>kesehatan</item>
     </string-array>
