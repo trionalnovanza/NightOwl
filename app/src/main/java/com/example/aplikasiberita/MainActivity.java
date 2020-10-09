@@ -25,5 +25,9 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter myAdapter = new MyAdapter(this, s1, s2, img);
         list_data.setAdapter(myAdapter);
         list_data.setLayoutManager(new LinearLayoutManager(this));
+        
+        int gridColumnCount = getResources().getInteger(R.integer.grid_column_count);
+        list_data.setLayoutManager(new
+                GridLayoutManager(this, gridColumnCount));
     }
 }
