@@ -1,34 +1,61 @@
 package com.example.aplikasiberita;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.GridLayoutManager;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    RecyclerView list_data;
+    private CardView cardView,cardView2,cardView3,cardView4,cardView5,cardView6,cardView7;
 
-    String s1[],s2[];
-    int img[] = {R.drawable.pendidikan,R.drawable.politik,R.drawable.ekonomi,R.drawable.otomotif,R.drawable.bisnis,R.drawable.kesehatan,R.drawable.teknologi};
+    @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        list_data = findViewById(R.id.list_data);
+        cardView = (CardView)findViewById(R.id.cardView);
+        cardView2 = (CardView)findViewById(R.id.cardView2);
+        cardView3 = (CardView)findViewById(R.id.cardView3);
+        cardView4 = (CardView)findViewById(R.id.cardView4);
+        cardView5 = (CardView)findViewById(R.id.cardView5);
+        cardView6 = (CardView)findViewById(R.id.cardView6);
+        cardView7 = (CardView)findViewById(R.id.cardView7);
 
-        s1 = getResources().getStringArray(R.array.judul);
-        s2 = getResources().getStringArray(R.array.deskripsi);
+        try {
+            cardView.setOnClickListener(this);
+            cardView2.setOnClickListener(this);
+            cardView3.setOnClickListener(this);
+            cardView4.setOnClickListener(this);
+            cardView5.setOnClickListener(this);
+            cardView6.setOnClickListener(this);
+            cardView7.setOnClickListener(this);
+        }catch (NullPointerException ignored){
 
-        MyAdapter myAdapter = new MyAdapter(this, s1, s2, img);
-        list_data.setAdapter(myAdapter);
-        list_data.setLayoutManager(new LinearLayoutManager(this));
-        
-        int gridColumnCount = getResources().getInteger(R.integer.grid_column_count);
-        list_data.setLayoutManager(new
-                GridLayoutManager(this, gridColumnCount));
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
+        Intent i;
+
+        switch (v.getId()) {
+            case R.id.cardView : i = new Intent(this,MainActivity2.class); startActivity(i);break;
+            case R.id.cardView2 : i = new Intent(this,Politik.class); startActivity(i); break;
+            case R.id.cardView3 : i = new Intent(this,Ekonomi.class); startActivity(i);break;
+            case R.id.cardView4 : i = new Intent(this,Otomotif.class); startActivity(i); break;
+            case R.id.cardView5 : i = new Intent(this,Bisnis.class); startActivity(i);break;
+            case R.id.cardView6 : i = new Intent(this,Kesehatan.class); startActivity(i); break;
+            case R.id.cardView7 : i = new Intent(this,Teknologi.class); startActivity(i);break;
+            default:break;
+
+        }
     }
 }
