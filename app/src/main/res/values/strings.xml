@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kategori Berita</string>
+    <string-array name="judul">
+        <item>Pendidikan</item>
+        <item>Politik</item>
+        <item>Ekonomi</item>
+        <item>Otomotif</item>
+        <item>Bisnis</item>
+        <item>Kesehatan</item>
+        <item>Teknologi</item>
+    </string-array>
+
+    <string-array name="deskripsi">
+        <item>Seputar Pendidikan Tanah Air</item>
+        <item>Seputar Dunia Politik Dalam Negeri</item>
+        <item>Update Info Ekonomi</item>
+        <item>Seputar Dunia Otomotif</item>
+        <item>Seputar Dunia Bisnis </item>
+        <item>Informasi Kesehatan Terkini</item>
+        <item>Update Info Teknologi Terbaru</item>
+    </string-array>
+</resources>
