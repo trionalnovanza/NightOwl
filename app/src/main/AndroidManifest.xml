@@ -9,6 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".Teknologi"
+            android:label="Teknologi" />
+        <activity
+            android:name=".Kesehatan"
+            android:label="Kesehatan" />
+        <activity
+            android:name=".Bisnis"
+            android:label="Bisnis" />
+        <activity
+            android:name=".Otomotif"
+            android:label="Otomotif" />
+        <activity
+            android:name=".Politik"
+            android:label="Politik" />
+        <activity
+            android:name=".Ekonomi"
+            android:label="Ekonomi" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="Pendidikan" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +37,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".My_Row"
+            android:label="List" />
     </application>
 
 </manifest>
