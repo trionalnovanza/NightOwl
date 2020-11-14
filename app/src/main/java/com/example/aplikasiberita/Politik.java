@@ -15,7 +15,7 @@ public class Politik extends AppCompatActivity implements View.OnClickListener{
     RecyclerView list_data;
 
     String s1[],s2[];
-    int img[] = {R.drawable.gibran,R.drawable.bawaslu,R.drawable.kemendagri,R.drawable.otomotif,R.drawable.bisnis,R.drawable.kesehatan,R.drawable.teknologi};
+    int img[] = {R.drawable.gibran,R.drawable.bawaslu,R.drawable.kemendagri,R.drawable.pan,R.drawable.giring,R.drawable.sekjen,R.drawable.nasdem};
     @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
