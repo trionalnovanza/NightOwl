@@ -19,4 +19,24 @@
         <item>Informasi Kesehatan Terkini</item>
         <item>Update Info Teknologi Terbaru</item>
     </string-array>
+    <string name="app_name">Kategori Berita</string>
+    <string-array name="judul_politik">
+        <item>Gibran-Teguh Janji Bakal Menjembatani Buruh dan Pengusaha</item>
+        <item>Bawaslu Ungkap Keunggulan dan Kerawanan Penggunaan Sirekap untuk Pilkada Serentak</item>
+        <item>Kemendagri Ingatkan KPU Agar Berkoordinasi Soal Data Perekaman e-KTP</item>
+        <item>Otomotif</item>
+        <item>Bisnis</item>
+        <item>Kesehatan</item>
+        <item>Teknologi</item>
+    </string-array>
+
+    <string-array name="deskripsi_politik">
+        <item>Kepada para buruh, Teguh Prakosa menjanjikan akan membuat kebijakan-kebijakan untuk memayungi kelompok buruh informal terkait fasilitas BPJS Ketenagakerjaan dan BPJS Kesehatan jika terpilih menjadi wakil wali kota nanti.</item>
+        <item>Badan Pengawas Pemilu (Bawaslu) mengapresiasinya Komisi Pemilihan Umum (KPU) yang sudah mengembangkan inovasi teknologi ke ranah pemilihan umum yaitu Sirekap. Bawaslu melihat aplikasi Sirekap ini memiliki keunggulan merekapitulasi penghitungan suara pada Pilkada Serentak 9 Desember.</item>
+        <item>Kementerian Dalam Negeri meminta Komisi Pemilihan Umum (KPU) tingkatkan koordinasi soal data penduduk yang belum melakukan perekaman KTP elektronik.</item>
+        <item>Seputar Dunia Otomotif</item>
+        <item>Seputar Dunia Bisnis </item>
+        <item>Informasi Kesehatan Terkini</item>
+        <item>Update Info Teknologi Terbaru</item>
+    </string-array>
 </resources>
