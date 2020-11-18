@@ -13,7 +13,12 @@ import android.view.View;
 
 public class Politik extends AppCompatActivity implements View.OnClickListener{
     RecyclerView list_data;
-
+    
+    String []htmlFile = new String[]
+            {
+                    "chap1","chap2","chap3","chap4","chap5","chap6","chap7"
+            };
+    
     String s1[],s2[];
     int img[] = {R.drawable.gibran,R.drawable.bawaslu,R.drawable.kemendagri,R.drawable.pan,R.drawable.giring,R.drawable.sekjen,R.drawable.nasdem};
     @SuppressLint("CutPasteId")
