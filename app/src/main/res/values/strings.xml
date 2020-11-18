@@ -19,7 +19,7 @@
         <item>Informasi Kesehatan Terkini</item>
         <item>Update Info Teknologi Terbaru</item>
     </string-array>
-    <string name="app_name">Kategori Berita</string>
+    
     <string-array name="judul_politik">
         <item>Gibran-Teguh Janji Bakal Menjembatani Buruh dan Pengusaha</item>
         <item>Bawaslu Ungkap Keunggulan dan Kerawanan Penggunaan Sirekap untuk Pilkada Serentak</item>
