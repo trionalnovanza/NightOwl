@@ -35,7 +35,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         s1 = getResources().getStringArray(R.array.judul);
         s2 = getResources().getStringArray(R.array.deskripsi);
 
-        MyAdapter myAdapter = new MyAdapter(this, s1, s2, img);
+        MyAdapter myAdapter = new MyAdapter(this, s1, s2, img, htmlFile);
         list_data.setAdapter(myAdapter);
         list_data.setLayoutManager(new LinearLayoutManager(this));
 
