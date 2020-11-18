@@ -13,7 +13,12 @@ import android.view.View;
 
 public class Otomotif extends AppCompatActivity implements View.OnClickListener{
     RecyclerView list_data;
-
+    
+    String []htmlFile = new String[]
+            {
+                    "chap1","chap2","chap3","chap4","chap5","chap6","chap7"
+            };
+    
     String s1[],s2[];
     int img[] = {R.drawable.pendidikan,R.drawable.politik,R.drawable.ekonomi,R.drawable.otomotif,R.drawable.bisnis,R.drawable.kesehatan,R.drawable.teknologi};
     @SuppressLint("CutPasteId")
