@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Kategori Berita</string>
+    <string name="about">About</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
     <string-array name="judul">
         <item>Pendidikan</item>
         <item>Politik</item>
