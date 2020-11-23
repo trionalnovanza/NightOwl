@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId()==R.id.about){
-            startActivity(new Intent(this, AboutActivity.class));
+            startActivity(new Intent(this, com.example.aplikasiberita.AboutActivity.class));
         }
         return true;
     }
