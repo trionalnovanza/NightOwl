@@ -59,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (item.getItemId()==R.id.about){
             startActivity(new Intent(this, com.example.aplikasiberita.AboutActivity.class));
         }
+        if (item.getItemId()==R.id.saran){
+            startActivity(new Intent(this, com.example.aplikasiberita.catatan.class));
+        }
         return true;
     }
 
