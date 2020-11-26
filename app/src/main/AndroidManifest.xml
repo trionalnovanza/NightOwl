@@ -14,6 +14,14 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".EditDataActivity"
+            android:label="Saran dan Masukan"/>
+        <activity android:name=".ListDataActivity"
+            android:label="Saran dan Masukan"/>
+        <activity android:name=".ListCatatan"
+            android:label="Saran dan Masukan"/>
+        <activity android:name=".catatan"
+            android:label="Saran dan Masukan"/>
         <activity android:name=".AboutActivity"
             android:label="About"/>
         <activity
