@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Kategori Berita</string>
+    <string name="about">About</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+    <string name="saran">Saran</string>
     <string-array name="pendidikan">
         <item>Komitmen Kemendikbud Perjuangkan Hak Para Pendidik</item>
         <item>Kampus Merdeka, Untungkan Mahasiswa dan Dosen</item>
