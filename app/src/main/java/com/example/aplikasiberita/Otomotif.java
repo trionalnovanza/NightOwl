@@ -32,8 +32,8 @@ public class Otomotif extends AppCompatActivity implements View.OnClickListener{
 
         list_data = findViewById(R.id.list_data);
 
-        s1 = getResources().getStringArray(R.array.judul);
-        s2 = getResources().getStringArray(R.array.deskripsi);
+        s1 = getResources().getStringArray(R.array.otomotif);
+        s2 = getResources().getStringArray(R.array.deskripsi_otomotif);
 
         MyAdapter myAdapter = new MyAdapter(this, s1, s2, img, htmlFile);
         list_data.setAdapter(myAdapter);
