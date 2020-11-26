@@ -27,6 +27,22 @@
         <item>Subsidi FLPP Cair Rp10,6 T Buat 103 Ribu Unit Rumah</item>
         <item>Tertekan Corona, Walt Disney PHK 32 Ribu Karyawan</item>
     </string-array>
+    
+    <string-array name="otomotif">
+       <item>Cara Mengenali Mobil Bekas yang Terkena Banjir</item>
+       <item>Bugatti Rilis Kado Mewah untuk Anak Sultan</item>
+       <item>Toyota Supra dan BMW Z4 Kena Recall Gegara Ini</item>
+       <item>Suzuki Pisahkan Operasi ATV dan Marine</item>
+       <item>Mazda Rugi hampir Seratus Miliar Yen</item>
+    </string-array>
+
+    <string-array name="deskripsi_otomotif">
+       <item>BMW Astra Used Car memberikan tiga ciri yang bisa dikenali ketika mobil bekas terendam...</item>
+       <item>Bugatti menggandeng The Little Car Company meluncurkan Bugatti Baby II dengan tiga...</item>
+       <item>Toyota dan BMW menggelar kampanye penarikan kembali atau recall atas produk yang...</item>
+       <item>Suzuki dipastikan memisahkan unit produksi ATV dan produk kelautan menjadi dua...</item>
+       <item>Mazda Motor Corporation melaporkan kerugian bersih JPY 93 miliar selama periode...</item>
+    </string-array>
 
     <string-array name="deskripsi_ekonomi">
         <item>PT Net Mediatama Televisi (NET TV) buka suara soal gugatan  Penundaan Kewajiban Pembayaran…</item>
