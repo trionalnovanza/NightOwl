@@ -16,6 +16,23 @@
         <item>Seleksi Guru PPPK 2021 Resmi Dibuka </item>
 
     </string-array>
+
+    <string-array name="ekonomi">
+        <item>NET TV Buka Suara soal Gugatan PKPU</item>
+        <item>Inggris Diramal Alami Resesi Ekonomi Terburuk dalam 300 Tahun</item>
+        <item>Industri Pengolahan Nonmigas 2020 Diramal Minus 2,22 Persen</item>
+        <item>Subsidi FLPP Cair Rp10,6 T Buat 103 Ribu Unit Rumah</item>
+        <item>Tertekan Corona, Walt Disney PHK 32 Ribu Karyawan</item>
+    </string-array>
+
+    <string-array name="deskripsi_ekonomi">
+        <item>PT Net Mediatama Televisi (NET TV) buka suara soal gugatan  Penundaan Kewajiban Pembayaran…</item>
+        <item>Perekonomian Inggris mengalami resesi terburuk dalam lebih dari 300 tahun terakhir...</item>
+        <item>Kementerian Perindustrian (Kemenperin) memprediksi industri pengolahan nonmigas minus...</item>
+        <item>Kementerian Pekerjaan Umum dan Perumahan Rakyat (PUPR) melalui Pusat Pengelolaan Dana...</item>
+        <item>Walt Disney Co. memutuskan untuk mem-PHK 32 ribu karyawan setelah pandemi covid-19…</item>
+
+    </string-array>
     
     <string-array name="judul_politik">
         <item>Gibran-Teguh Janji Bakal Menjembatani Buruh dan Pengusaha</item>
