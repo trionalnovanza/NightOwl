@@ -45,9 +45,11 @@
         <activity
             android:name=".MainActivity2"
             android:label="Pendidikan" />
-        <activity android:name=".webview"></activity>
+        <activity 
+            android:name=".webview"
+            android:label="Detail Berita"/>
         <activity android:name=".MainActivity">
-             android:name=".MainActivity">
+             
         </activity>
         <activity android:name=".SplashActivity">
             
