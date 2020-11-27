@@ -69,5 +69,52 @@
         <item>Pelaksana tugas (Plt) Ketua Umum Partai Solidaritas Indonesia (PSI), Giring Ghanesa...</item>
     </string-array>
 
+    <string-array name="judulT">
+        <item>Pendaftaran The NextDev</item>
+        <item>Bagaimana Implementasi Big Data?</item>
+        <item>Pabrik Ipad pindah</item>
+        <item>Review Iphone 12</item>
+        <item>Hobi Main Jadi Prestasi</item>
+    </string-array>
+
+    <string-array name="deskripsiT">
+        <item>Tekomsel kembali menyelenggarakan The NextDev</item>
+        <item>Big data, topik ini belakangan sering dibicarakan</item>
+        <item>Apple meminta Foxconn untuk memindahkan produksi iPad</item>
+        <item>Oktober lalu saat Apple memperkenalkan iPhone 12</item>
+        <item>Siapa, sih, yang tak mau mendapatkan penghasilan dari hobinya?</item>
+    </string-array>
+
+    <string-array name="judulB">
+        <item>Warung Se-Indonesia, Gaptek Masih Kendala</item>
+        <item>Tokopedia Gelar Halal dan Goodness Festival</item>
+        <item>Dampak Corona, Samsung Tunda Penutupan Bisnis LCD</item>
+        <item>BNI Jadi Pengembang API Portal Terbaik</item>
+        <item>Daftar 20 Startup yang Lolos Batch Pertama</item>
+    </string-array>
+
+    <string-array name="deskripsiB">
+        <item>Blibli Mitra sudah berdiri selama satu tahun. Pihaknya pun menyadari</item>
+        <item>Tokopedia melalui ekosistem Tokopedia Salam mengadakan</item>
+        <item>Samsung Electronics telah memutuskan menunda rencananya</item>
+        <item>Dalam mendukung strategi bisnis PT Bank Negara Indonesia (Persero)</item>
+        <item>Melalui program Startup Studio, Kementerian Komunikasi dan Informatika</item>
+    </string-array>
+
+    <string-array name="judulK">
+        <item>Mengenal RS Ummi Bogor</item>
+        <item>Kasus Baru COVID-19 RI 27 November</item>
+        <item>169 Pasien Corona Meninggal, RI Catat Rekor</item>
+        <item>Stres Bikin Imun Tubuh Menurun, Perlukah Libur</item>
+        <item>Hasil Inspeksi BPOM dengan MUI soal Sinovac</item>
+    </string-array>
+
+    <string-array name="deskripsiK">
+        <item>Habib Rizieq Shihab tengah dirawat bersama sang istri di RS Ummi Bogor</item>
+        <item>Pemerintah melaporkan 5.828 kasus baru COVID-19 yang</item>
+        <item>Dalam laporan harian perkembangan wabah virus Corona</item>
+        <item>Stres merupakan hal yang menjadi bagian dari kehidupan</item>
+        <item>Kepala Badan Pengawas Obat dan Makanan (BPOM)</item>
+    </string-array>
     
 </resources>
