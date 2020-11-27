@@ -20,7 +20,7 @@ public class Ekonomi extends AppCompatActivity implements View.OnClickListener{
             };
     
     String s1[],s2[];
-    int img[] = {R.drawable.pendidikan,R.drawable.politik,R.drawable.ekonomi,R.drawable.otomotif,R.drawable.bisnis,R.drawable.kesehatan,R.drawable.teknologi};
+    int img[] = {R.drawable.eko1,R.drawable.eko2,R.drawable.eko3,R.drawable.eko4,R.drawable.eko5};
     @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class Ekonomi extends AppCompatActivity implements View.OnClickListener{
 
         list_data = findViewById(R.id.list_data);
 
-        s1 = getResources().getStringArray(R.array.ekonomi);
+        s1 = getResources().getStringArray(R.array.judul_ekonomi);
         s2 = getResources().getStringArray(R.array.deskripsi_ekonomi);
 
         MyAdapter myAdapter = new MyAdapter(this, s1, s2, img, htmlFile);
