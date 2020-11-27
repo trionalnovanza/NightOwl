@@ -20,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
             };
     
     String s1[],s2[];
-    int img[] = {R.drawable.pendidikan,R.drawable.politik,R.drawable.ekonomi,R.drawable.otomotif,R.drawable.bisnis,R.drawable.kesehatan,R.drawable.teknologi};
+    int img[] = {R.drawable.pend1,R.drawable.pend2,R.drawable.pend3,R.drawable.pend4,R.drawable.pend5};
     @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
 
         list_data = findViewById(R.id.list_data);
 
-        s1 = getResources().getStringArray(R.array.pendidikan);
+        s1 = getResources().getStringArray(R.array.judul_pendidikan);
         s2 = getResources().getStringArray(R.array.deskripsi_pendidikan);
 
         MyAdapter myAdapter = new MyAdapter(this, s1, s2, img, htmlFile);
