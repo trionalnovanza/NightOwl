@@ -16,7 +16,7 @@ public class Ekonomi extends AppCompatActivity implements View.OnClickListener{
     
     String []htmlFile = new String[]
             {
-                    "chap1","chap2","chap3","chap4","chap5","chap6","chap7"
+                     "eko1","eko2","eko3","eko4","eko5"
             };
     
     String s1[],s2[];
