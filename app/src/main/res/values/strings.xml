@@ -3,7 +3,7 @@
     <string name="about">About</string>
     <string name="lorem_ipsum">lorem ipsum</string>
     <string name="saran">Saran</string>
-    <string-array name="pendidikan">
+   <string-array name="judul_pendidikan">
         <item>Komitmen Kemendikbud Perjuangkan Hak Para Pendidik</item>
         <item>Kampus Merdeka, Untungkan Mahasiswa dan Dosen</item>
         <item>Subsidi Upah untuk Guru Honorer Jadi Kado HGN 2020</item>
@@ -20,15 +20,22 @@
 
     </string-array>
 
-    <string-array name="ekonomi">
+    <string-array name="judul_ekonomi">
         <item>NET TV Buka Suara soal Gugatan PKPU</item>
         <item>Inggris Diramal Alami Resesi Ekonomi Terburuk dalam 300 Tahun</item>
         <item>Industri Pengolahan Nonmigas 2020 Diramal Minus 2,22 Persen</item>
         <item>Subsidi FLPP Cair Rp10,6 T Buat 103 Ribu Unit Rumah</item>
         <item>Tertekan Corona, Walt Disney PHK 32 Ribu Karyawan</item>
     </string-array>
-    
-    <string-array name="otomotif">
+    <string-array name="deskripsi_ekonomi">
+        <item>PT Net Mediatama Televisi (NET TV) buka suara soal gugatan  Penundaan Kewajiban Pembayaran…</item>
+        <item>Perekonomian Inggris mengalami resesi terburuk dalam lebih dari 300 tahun terakhir...</item>
+        <item>Kementerian Perindustrian (Kemenperin) memprediksi industri pengolahan nonmigas minus...</item>
+        <item>Kementerian Pekerjaan Umum dan Perumahan Rakyat (PUPR) melalui Pusat Pengelolaan Dana...</item>
+        <item>Walt Disney Co. memutuskan untuk mem-PHK 32 ribu karyawan setelah pandemi covid-19…</item>
+
+    </string-array>
+    <string-array name="judul_otomotif">
        <item>Cara Mengenali Mobil Bekas yang Terkena Banjir</item>
        <item>Bugatti Rilis Kado Mewah untuk Anak Sultan</item>
        <item>Toyota Supra dan BMW Z4 Kena Recall Gegara Ini</item>
@@ -44,14 +51,7 @@
        <item>Mazda Motor Corporation melaporkan kerugian bersih JPY 93 miliar selama periode...</item>
     </string-array>
 
-    <string-array name="deskripsi_ekonomi">
-        <item>PT Net Mediatama Televisi (NET TV) buka suara soal gugatan  Penundaan Kewajiban Pembayaran…</item>
-        <item>Perekonomian Inggris mengalami resesi terburuk dalam lebih dari 300 tahun terakhir...</item>
-        <item>Kementerian Perindustrian (Kemenperin) memprediksi industri pengolahan nonmigas minus...</item>
-        <item>Kementerian Pekerjaan Umum dan Perumahan Rakyat (PUPR) melalui Pusat Pengelolaan Dana...</item>
-        <item>Walt Disney Co. memutuskan untuk mem-PHK 32 ribu karyawan setelah pandemi covid-19…</item>
 
-    </string-array>
     
     <string-array name="judul_politik">
         <item>Gibran-Teguh Janji Bakal Menjembatani Buruh dan Pengusaha</item>
@@ -59,17 +59,15 @@
         <item>Kemendagri Ingatkan KPU Agar Berkoordinasi Soal Data Perekaman e-KTP</item>
         <item>PAN Nilai Efektivitas Pemerintahan Bukan Didasarkan Jumlah Partai</item>
         <item>Giring Janji Bakal All Out Dukung Pradi-Afifah</item>
-        <item>Sekjen PSI Ajak Anak Muda Ponorogo Menangkan Pasangan Sugiri dan Lisdyarita</item>
-        <item>Partai NasDem Terbelah di Surabaya</item>
     </string-array>
 
     <string-array name="deskripsi_politik">
-        <item>Kepada para buruh, Teguh Prakosa menjanjikan akan membuat kebijakan-kebijakan untuk memayungi kelompok buruh informal terkait fasilitas BPJS Ketenagakerjaan dan BPJS Kesehatan jika terpilih menjadi wakil wali kota nanti.</item>
-        <item>Badan Pengawas Pemilu (Bawaslu) mengapresiasinya Komisi Pemilihan Umum (KPU) yang sudah mengembangkan inovasi teknologi ke ranah pemilihan umum yaitu Sirekap. Bawaslu melihat aplikasi Sirekap ini memiliki keunggulan merekapitulasi penghitungan suara pada Pilkada Serentak 9 Desember.</item>
-        <item>Kementerian Dalam Negeri meminta Komisi Pemilihan Umum (KPU) tingkatkan koordinasi soal data penduduk yang belum melakukan perekaman KTP elektronik.</item>
-        <item>Ketua Umum Partai Nasdem Surya Paloh mengusulkan ambang batas parlemen (parliamentary threshold) naik menjadi 7 persen. Hal itu demi menyederhanakan partai politik di parlemen. Namun PAN memiliki pandangan berbeda.</item>
-        <item>Pelaksana tugas (Plt) Ketua Umum Partai Solidaritas Indonesia (PSI), Giring Ghanesa memberikan dukungan penuh pada pasangan calon wali kota-wakil wali kota Depok, Pradi Supriatna-Afifah Alia. Dia bersama kader dan simpatisan PSI berjanji akan all out memenangkan pasangan nomor urut 01 itu. </item>
-        <item>Sekjen DPP PSI, Raja Juli Antoni menemui calon Bupati Ponorogo, Haji Sugiri Sancoko di Ponorogo Center. Pertemuan dimaksudkan sebagai langkah konsolidasi dukungan PSI untuk pemenangan pasangan Sugiri-Lisdyarita dalam Pilkada Ponorogo 2020.</item>
-        <item>Suhu politik jelang Pemilihan Wali Kota Surabaya mulai memanas. Sebab, salah satu partai pengusung pasangan calon (Paslon) suaranya terbelah dan membelot ke kubu lawan.</item>
+        <item>Kepada para buruh, Teguh Prakosa menjanjikan akan membuat kebijakan-kebijakan...</item>
+        <item>Badan Pengawas Pemilu (Bawaslu) mengapresiasinya Komisi Pemilihan Umum (KPU)...</item>
+        <item>Kementerian Dalam Negeri meminta Komisi Pemilihan Umum (KPU) tingkatkan koordinasi...</item>
+        <item>Ketua Umum Partai Nasdem Surya Paloh mengusulkan ambang batas parlemen...</item>
+        <item>Pelaksana tugas (Plt) Ketua Umum Partai Solidaritas Indonesia (PSI), Giring Ghanesa...</item>
     </string-array>
+
+    
 </resources>
