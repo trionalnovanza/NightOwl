@@ -16,11 +16,11 @@ public class Teknologi extends AppCompatActivity implements View.OnClickListener
 
     String []htmlFile = new String[]
             {
-                    "chap1","chap2","chap3","chap4","chap5","chap6","chap7"
+                    "chap1","chap2","chap3","chap4","chap5"
             };
     
     String s1[],s2[];
-    int img[] = {R.drawable.pendidikan,R.drawable.politik,R.drawable.ekonomi,R.drawable.otomotif,R.drawable.bisnis,R.drawable.kesehatan,R.drawable.teknologi};
+    int img[] = {R.drawable.teknologi11,R.drawable.teknologi2,R.drawable.teknologi3,R.drawable.teknologi4,R.drawable.teknologi5};
     @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +32,8 @@ public class Teknologi extends AppCompatActivity implements View.OnClickListener
 
         list_data = findViewById(R.id.list_data);
 
-        s1 = getResources().getStringArray(R.array.judul);
-        s2 = getResources().getStringArray(R.array.deskripsi);
+        s1 = getResources().getStringArray(R.array.judulT);
+        s2 = getResources().getStringArray(R.array.deskripsiT);
 
         MyAdapter myAdapter = new MyAdapter(this, s1, s2, img, htmlFile);
         list_data.setAdapter(myAdapter);
