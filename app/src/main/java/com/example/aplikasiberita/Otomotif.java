@@ -16,7 +16,7 @@ public class Otomotif extends AppCompatActivity implements View.OnClickListener{
     
     String []htmlFile = new String[]
             {
-                    "chap1","chap2","chap3","chap4","chap5","chap6","chap7"
+                     "oto1","oto2","oto3","oto4","oto5"
             };
     
     String s1[],s2[];
