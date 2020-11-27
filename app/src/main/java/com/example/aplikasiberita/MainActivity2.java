@@ -16,7 +16,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
     
     String []htmlFile = new String[]
             {
-                    "chap1","chap2","chap3","chap4","chap5","chap6","chap7"
+                   "pend1","pend2","pend3","pend4","pend5"
             };
     
     String s1[],s2[];
