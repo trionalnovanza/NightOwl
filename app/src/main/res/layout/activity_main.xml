@@ -8,10 +8,177 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/cardView6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="255dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView5"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/gambar5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/kesehatan1"
+                tools:srcCompat="@drawable/kesehatan1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/gambar1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/politik1"
+                tools:srcCompat="@drawable/politik1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/gambar2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/ekonomi1"
+                tools:srcCompat="@drawable/ekonomi1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="380dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/gambar6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/teknologi1"
+                tools:srcCompat="@drawable/teknologi1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/gambar3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/otomotif1"
+                tools:srcCompat="@drawable/otomotif1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="255dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/gambar4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/bisnis1"
+                tools:srcCompat="@drawable/bisnis1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -21,296 +188,17 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/gambar"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/pendidikan"
-                tools:srcCompat="@drawable/pendidikan" />
+                app:srcCompat="@drawable/pendidikan1"
+                tools:srcCompat="@drawable/pendidikan1" />
 
-            <TextView
-                android:id="@+id/judul"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="Pendidikan"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/gambar"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/deskripsi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Seputar Pendidikan Tanah Air"
-                android:textSize="16sp"
-                app:layout_constraintStart_toStartOf="@+id/judul"
-                app:layout_constraintTop_toBottomOf="@+id/judul" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/cardView"
-        tools:layout_editor_absoluteX="1dp">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/gambar1"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/politik" />
-
-            <TextView
-                android:id="@+id/judul1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="Politik"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/gambar1"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/deskripsi1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Seputar Dunia Politik Dalam Negeri"
-                android:textSize="16sp"
-                app:layout_constraintStart_toStartOf="@+id/judul1"
-                app:layout_constraintTop_toBottomOf="@+id/judul1" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2"
-        tools:layout_editor_absoluteX="1dp">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/gambar2"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/ekonomi" />
-
-            <TextView
-                android:id="@+id/judul2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="Ekonomi"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/gambar2"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/deskripsi2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Update Info Ekonomi"
-                android:textSize="16sp"
-                app:layout_constraintStart_toStartOf="@+id/judul2"
-                app:layout_constraintTop_toBottomOf="@+id/judul2" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/cardView3"
-        tools:layout_editor_absoluteX="-42dp">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/gambar3"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/otomotif" />
-
-            <TextView
-                android:id="@+id/judul3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="Otomotif"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/gambar3"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/deskripsi3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Seputar Dunia Otomotif"
-                android:textSize="16sp"
-                app:layout_constraintStart_toStartOf="@+id/judul3"
-                app:layout_constraintTop_toBottomOf="@+id/judul3" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/cardView4"
-        tools:layout_editor_absoluteX="-71dp">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/gambar4"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/bisnis" />
-
-            <TextView
-                android:id="@+id/judul4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="Bisnis"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/gambar4"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/deskripsi4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Seputar Dunia Bisnis"
-                android:textSize="16sp"
-                app:layout_constraintStart_toStartOf="@+id/judul4"
-                app:layout_constraintTop_toBottomOf="@+id/judul4" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView5">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/gambar5"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/kesehatan" />
-
-            <TextView
-                android:id="@+id/judul5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="Kesehatan"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/gambar5"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/deskripsi5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Informasi Kesehatan Terkini"
-                android:textSize="16sp"
-                app:layout_constraintStart_toStartOf="@+id/judul5"
-                app:layout_constraintTop_toBottomOf="@+id/judul5" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView6">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/gambar6"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/teknologi" />
-
-            <TextView
-                android:id="@+id/judul6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="Teknologi"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/gambar6"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/deskripsi6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Update Info Teknologi Terbaru"
-                android:textSize="16sp"
-                app:layout_constraintStart_toStartOf="@+id/judul6"
-                app:layout_constraintTop_toBottomOf="@+id/judul6" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
