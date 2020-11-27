@@ -20,7 +20,7 @@ public class Politik extends AppCompatActivity implements View.OnClickListener{
             };
     
     String s1[],s2[];
-    int img[] = {R.drawable.gibran,R.drawable.bawaslu,R.drawable.kemendagri,R.drawable.pan,R.drawable.giring};
+    int img[] = {R.drawable.pol1,R.drawable.pol2,R.drawable.pol3,R.drawable.pol4,R.drawable.pol5};
     @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
