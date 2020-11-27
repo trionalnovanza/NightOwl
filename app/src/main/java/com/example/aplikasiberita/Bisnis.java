@@ -16,7 +16,7 @@ public class Bisnis extends AppCompatActivity implements View.OnClickListener{
     
     String []htmlFile = new String[]
             {
-                    "chap1","chap2","chap3","chap4","chap5"
+                    "bisnis1","bisnis2","bisnis3","bisnis4","bisnis5"
             };
     
     String s1[],s2[];
