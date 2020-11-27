@@ -16,11 +16,11 @@ public class Kesehatan extends AppCompatActivity implements View.OnClickListener
     
     String []htmlFile = new String[]
             {
-                    "chap1","chap2","chap3","chap4","chap5","chap6","chap7"
+                    "chap1","chap2","chap3","chap4","chap5"
             };
     
     String s1[],s2[];
-    int img[] = {R.drawable.pendidikan,R.drawable.politik,R.drawable.ekonomi,R.drawable.otomotif,R.drawable.bisnis,R.drawable.kesehatan,R.drawable.teknologi};
+    int img[] = {R.drawable.kesehatan11,R.drawable.kesehatan2,R.drawable.kesehatan3,R.drawable.kesehatan4,R.drawable.kesehatan5};
     @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +32,8 @@ public class Kesehatan extends AppCompatActivity implements View.OnClickListener
 
         list_data = findViewById(R.id.list_data);
 
-        s1 = getResources().getStringArray(R.array.judul);
-        s2 = getResources().getStringArray(R.array.deskripsi);
+        s1 = getResources().getStringArray(R.array.judulK);
+        s2 = getResources().getStringArray(R.array.deskripsiK);
 
         MyAdapter myAdapter = new MyAdapter(this, s1, s2, img, htmlFile);
         list_data.setAdapter(myAdapter);
