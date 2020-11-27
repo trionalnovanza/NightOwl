@@ -16,7 +16,7 @@ public class Politik extends AppCompatActivity implements View.OnClickListener{
     
     String []htmlFile = new String[]
             {
-                    "chap1","chap2","chap3","chap4","chap5","chap6","chap7"
+                    "pol1","pol2","pol3","pol4","pol5"
             };
     
     String s1[],s2[];
