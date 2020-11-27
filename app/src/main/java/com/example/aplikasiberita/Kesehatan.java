@@ -16,7 +16,7 @@ public class Kesehatan extends AppCompatActivity implements View.OnClickListener
     
     String []htmlFile = new String[]
             {
-                    "chap1","chap2","chap3","chap4","chap5"
+                    "kesehatan1","kesehatan2","kesehatan3","kesehatan4","kesehatan5"
             };
     
     String s1[],s2[];
