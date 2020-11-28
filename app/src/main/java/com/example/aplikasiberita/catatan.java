@@ -33,7 +33,7 @@ public class catatan extends AppCompatActivity {
                     AddData(newEntry);
                     editText.setText("");
                 } else {
-                    toastMessage("You must put something in the text field!");
+                    toastMessage("Kamu Harus Isi Sesuatu");
                 }
 
             }
@@ -53,9 +53,9 @@ public class catatan extends AppCompatActivity {
         boolean insertData = mDatabaseHelper.addData(newEntry);
 
         if (insertData) {
-            toastMessage("Data Successfully Inserted!");
+            toastMessage("Saran Behasil Masuk");
         } else {
-            toastMessage("Something went wrong");
+            toastMessage("Ada Yang Salah");
         }
     }
 
