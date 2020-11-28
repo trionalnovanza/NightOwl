@@ -55,7 +55,7 @@ public class EditDataActivity extends AppCompatActivity {
                 if(!item.equals("")){
                     mDatabaseHelper.updateName(item,selectedID,selectedName);
                 }else{
-                    toastMessage("You must enter a name");
+                    toastMessage("Kamu Harus Masukan Sebuah Kata");
                 }
             }
         });
@@ -65,7 +65,7 @@ public class EditDataActivity extends AppCompatActivity {
             public void onClick(View view) {
                 mDatabaseHelper.deleteName(selectedID,selectedName);
                 editable_item.setText("");
-                toastMessage("removed from database");
+                toastMessage("Dihapus dari database");
             }
         });
 
